@@ -20,6 +20,8 @@ body {
   padding: 0 10px;
 }
 
+
+    /* <!----------------- MuxammadAli section=Started ----------------------> */
 #started {
   padding: 76px 260px;
   background-color: #f67e7e;
@@ -41,14 +43,27 @@ body {
   color: #012f34;
   width: 153px;
   height: 48px;
-  border: 2px solid #012F34;
+  border: 2px solid #012f34;
   box-sizing: border-box;
   border-radius: 24px;
   background: none;
   cursor: pointer;
 }
 
+.started__btn:hover {
+  background-color: #012f34;
+  color: #fff;
+}
+.started__btn:active {
+  border: 2px solid #bfcbcc;
+  background-color: transparent;
+  color: #bfcbcc;
+}
 
+/* <!----------------- MuxammadAli section=Started end ----------------------> */
+
+
+/* <!----------------- MuxammadAli section=footer ----------------------> */
 
 #footer {
   background-color: #002529;
@@ -78,6 +93,14 @@ body {
   line-height: 28px;
   color: #fff;
 }
+
+.footer__link:hover {
+  color: #f67e7e;
+}
+.footer__link:active {
+  color: #bfcbcc;
+}
+
 .footer__adress {
   font-weight: 600;
   font-size: 15px;
@@ -85,11 +108,22 @@ body {
   color: #fff;
   opacity: 0.6;
 }
-
 .social__list {
   list-style: none;
+  margin-bottom: 50px;
+  justify-content: right;
 }
 
-.social__item {
+.social__item:not(:last-child) {
   margin-right: 16px;
 }
+
+.social__copy {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+/* <!----------------- MuxammadAli section=footer end ----------------------> */
