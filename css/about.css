@@ -21,7 +21,6 @@ body {
   width: 1130px;
   padding: 0 10px;
 }
-
 /*  Arslon*/
 .about__hero{
   background-image: url('../images/about-hero-left.svg');
@@ -200,3 +199,136 @@ body {
 /*  Muhammadsodqi end */
 
 
+                      /* MuxammadAli section=Clients */
+
+#clients {
+  padding: 140px 0;
+  background-color: #012f34;
+  background-image: url(../img/clients-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.clients__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.clients__list {
+  list-style: none;
+}
+.clients__item:not(:last-child){
+  margin-right: 80px;
+} 
+
+                        /* MuxammadAli section=Clients end */
+
+
+                        /* <!----------------- MuxammadAli section=Started ----------------------> */
+#started {
+  padding: 76px 260px;
+  background-color: #f67e7e;
+  background-image: url(../img/started.svg);
+  background-repeat: no-repeat;
+  background-size: 200px 244px;
+}
+
+.started__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012f34;
+}
+.started__btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #012f34;
+  width: 153px;
+  height: 48px;
+  border: 2px solid #012f34;
+  box-sizing: border-box;
+  border-radius: 24px;
+  background: none;
+  cursor: pointer;
+}
+
+.started__btn:hover {
+  background-color: #012f34;
+  color: #fff;
+}
+.started__btn:active {
+  border: 2px solid #bfcbcc;
+  background-color: transparent;
+  color: #bfcbcc;
+}
+
+/* <!----------------- MuxammadAli section=Started end ----------------------> */
+
+
+/* <!----------------- MuxammadAli section=footer ----------------------> */
+
+#footer {
+  background-color: #002529;
+  padding: 48px 0;
+}
+
+.footer__inner {
+  margin-right: 125px;
+}
+
+.footer__logo {
+  margin-bottom: 25px;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.footer__link:hover {
+  color: #f67e7e;
+}
+.footer__link:active {
+  color: #bfcbcc;
+}
+
+.footer__adress {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.6;
+}
+.social__list {
+  list-style: none;
+  margin-bottom: 50px;
+  justify-content: right;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.social__copy {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+/* <!----------------- MuxammadAli section=footer end ----------------------> */
