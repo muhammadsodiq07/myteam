@@ -20,7 +20,7 @@ body {
   width: 1130px;
   padding: 0 10px;
 }
-
+/*   Arslon   */
 header{
   background-color: #014E56;
 }
@@ -91,6 +91,9 @@ header{
   line-height: 28px;
 }
 
+/*   Arslon  end */
+
+/* Muhammadsodiq */
 .manage {
   background-color: #012f34;
   height: 685px;
@@ -215,3 +218,7 @@ header{
   color: #fff;
   margin-bottom: 30px;
 }
+
+  /* Muhammadsodiq end */
+  
+  
