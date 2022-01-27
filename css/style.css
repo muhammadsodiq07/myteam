@@ -19,3 +19,61 @@ body {
   width: 1130px;
   padding: 0 10px;
 }
+
+
+.stories {
+  width: 100vw;
+  height: 100vh;
+  background-color: #004047; 
+  padding-top: 140px;
+  background-image: url('../img/succes__section.svg'),
+  url('../img/secces__img__right.svg') ;
+  background-repeat: no-repeat;
+  background-position: top left , right bottom;
+}
+.results__title {
+  width: 932px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 56px;
+}
+.results__span {
+  color: #79cbc7;
+}
+
+.results__item {
+  width: 350px;
+  padding-top: 30px;
+  background-image: url('../img/seccess__dots.svg');
+  background-repeat: no-repeat;
+  background-position: top  center;
+}
+.results__list {
+  list-style: none;
+}
+.results__text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.results__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+  margin-bottom: 2px;
+}
+.results__job {
+  font-size: 13px;
+  line-height: 18px;  
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
