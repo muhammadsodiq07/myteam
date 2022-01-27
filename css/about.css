@@ -22,6 +22,46 @@ body {
   padding: 0 10px;
 }
 
+/*  Arslon*/
+.about__hero{
+  background-image: url('../images/about-hero-left.svg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: #014E56;
+}
+.about__main{
+  padding-top: 70px;
+  padding-bottom: 170px;
+  gap: 178px;
+
+}
+.about__title {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100px;
+  color: #fff;
+}
+.about__desc {
+}
+.about__red-line {
+}
+.about__text {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.about__desc{
+  width: 730px;
+}
+.about__red-line{
+  margin-bottom: 40px;
+}
+
+/* Arslon end */
+
+/* Muhammadsodiq */
 
 .directors {
   background-color: #004047;
@@ -157,3 +197,6 @@ body {
   left: 135px;
   top: -70px;
 }
+/*  Muhammadsodqi end */
+
+
