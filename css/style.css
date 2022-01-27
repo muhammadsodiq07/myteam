@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
+
 *,
 *::after,
 *::before {
@@ -19,6 +20,205 @@ body {
   width: 1130px;
   padding: 0 10px;
 }
+/*   Arslon   */
+header{
+  background-color: #014E56;
+}
+.header__all{
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header__list {
+  list-style: none;
+}
+.header__item a{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 40px;
+}
+.header__logo {
+  margin-right: 40px;
+} 
+.header__contact{
+  text-align: center;
+  padding: 10px 32px;
+  border: 2px solid #fff;
+  border-radius: 24px;
+}.header__contact:hover{
+  color: #002529;
+  background-color: #fff;
+  border: none;
+}
+
+.hero {
+  background-color:#014E56;
+  background-image: url('../images/hero__img--left.svg'),url('../images/hero__img_bottom.svg');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+}
+
+.hero__main {
+  padding-bottom: 200px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.hero__title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
+  width: 635px;
+}
+.hero__span {
+  color: #F67E7E;
+}
+.hero__desc {
+}
+.hero__text{
+  margin-top: 70px;
+  color: #fff;
+  width: 445px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/*   Arslon  end */
+
+/* Muhammadsodiq */
+.manage {
+  background-color: #012f34;
+  height: 685px;
+  width: 100%;
+  background-image: url('../img/build__back.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.build {
+  padding-top: 80px; 
+}
+.title__build {
+  width: 445px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #fff;
+  position: relative;
+}
+.title__build::before {
+  content: '';
+  width: 50px;
+  border-top: 3px solid #f67e7e;
+  display: inline-block;
+  position: absolute;
+  top: -55px;
+}
+.build__list {
+  position: relative;
+  top: 120px;
+}
+.build__item {
+  margin-bottom: 32px;
+  list-style-type: none;
+  position: relative;
+}
+.build__item::before {
+  content: '';
+  width: 72px;
+  height: 72px;
+  background-image: url('../img/build__user.svg');
+  display: inline-block;
+  position: absolute;
+  left: -100px;  
+}
+.build__item:nth-child(2)::before {
+  background-image: url('../img/build__setting__img.svg');
+}
+.build__item:nth-child(3)::before {
+  background-image: url('../img/build__fizik__img.svg');
+}
+.item__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f67e7e;
+  margin-bottom: 16px;
+}
+.item__text {
+  width: 445px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;  
+  color: #fff;
+  opacity: 0.8;
+
+  
+  
+  .stories {
+  width: 100vw;
+  height: 100vh;
+  background-color: #004047; 
+  padding-top: 140px;
+  background-image: url('../img/succes__section.svg'),
+  url('../img/secces__img__right.svg') ;
+  background-repeat: no-repeat;
+  background-position: top left , right bottom;
+}
+.results__title {
+  width: 932px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 56px;
+}
+.results__span {
+  color: #79cbc7;
+}
+
+.results__item {
+  width: 350px;
+  padding-top: 30px;
+  background-image: url('../img/seccess__dots.svg');
+  background-repeat: no-repeat;
+  background-position: top  center;
+}
+.results__list {
+  list-style: none;
+}
+.results__text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.results__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+  margin-bottom: 2px;
+}
+.results__job {
+  font-size: 13px;
+  line-height: 18px;  
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+  /* Muhammadsodiq end */
 
 
     /* <!----------------- MuxammadAli section=Started ----------------------> */
@@ -127,3 +327,4 @@ body {
 }
 
 /* <!----------------- MuxammadAli section=footer end ----------------------> */
+
