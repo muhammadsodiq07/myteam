@@ -20,3 +20,76 @@ body {
   padding: 0 10px;
 }
 
+#started {
+  padding: 76px 260px;
+  background-color: #f67e7e;
+  background-image: url(../img/started.svg);
+  background-repeat: no-repeat;
+  background-size: 200px 244px;
+}
+
+.started__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012f34;
+}
+.started__btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #012f34;
+  width: 153px;
+  height: 48px;
+  border: 2px solid #012F34;
+  box-sizing: border-box;
+  border-radius: 24px;
+  background: none;
+  cursor: pointer;
+}
+
+
+
+#footer {
+  background-color: #002529;
+  padding: 48px 0;
+}
+
+.footer__inner {
+  margin-right: 125px;
+}
+
+.footer__logo {
+  margin-bottom: 25px;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+.footer__adress {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.social__list {
+  list-style: none;
+}
+
+.social__item {
+  margin-right: 16px;
+}
