@@ -49,7 +49,9 @@ header{
   text-decoration: none;
   margin-right: 40px;
 }
-
+.header__link :hover {
+  color: #f67e7e;
+}
 .header__logo {
   margin-right: 40px;
 }
@@ -65,7 +67,6 @@ header{
   color: #002529;
   border: 2px solid #fff;
   background-color: #fff;
-  border: none;
 }
 
 .header__contact:active {
