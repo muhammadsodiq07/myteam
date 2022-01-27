@@ -15,4 +15,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+.container {
+  width: 1130px;
+  padding: 0 10px;
+}
 
