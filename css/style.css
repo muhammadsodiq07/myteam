@@ -36,7 +36,6 @@ header{
   list-style: none;
 }
 .header__item a{
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
@@ -79,20 +78,19 @@ header{
 }
 .hero__title {
   color: #fff;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 100px;
   line-height: 100px;
   width: 635px;
 }
 .hero__span {
-  color: #F67E7E;
+  color: #f67e7e;
 }
-.hero__desc {
-}
+
 .hero__text{
   margin-top: 70px;
   color: #fff;
-  width: 445px;
+  width: 445px; 
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
@@ -170,8 +168,8 @@ header{
 }  
   
 .stories {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 745px;
   background-color: #004047; 
   padding-top: 140px;
   background-image: url('../img/succes__section.svg'),
@@ -232,7 +230,7 @@ header{
 #started {
   padding: 76px 260px;
   background-color: #f67e7e;
-  background-image: url(../img/started.svg);
+  background-image: url('../img/started.svg');
   background-repeat: no-repeat;
   background-size: 200px 244px;
 }
