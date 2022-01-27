@@ -40,10 +40,7 @@ body {
   line-height: 100px;
   color: #fff;
 }
-.about__desc {
-}
-.about__red-line {
-}
+
 .about__text {
   color: #fff;
   font-weight: 600;
@@ -242,6 +239,8 @@ body {
   color: #012f34;
 }
 .started__btn {
+  position: relative;
+  right: 150px;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
